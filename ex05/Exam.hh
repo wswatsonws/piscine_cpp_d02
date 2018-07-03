@@ -6,14 +6,13 @@
 
 class Exam
 {
-public:
+	public:
 	Exam(bool *);
-    ~Exam();
-  void (Exam::*kobayashiMaru)(int);
-  void	start(int);
-  bool	isCheating();
-
-  static bool cheat;
+	~Exam();
+	void (Exam::*kobayashiMaru)(int);
+	void	start(int);
+	bool	isCheating();
+	static bool cheat;
 };
 
 #endif
